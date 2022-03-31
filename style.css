@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f1ff;
+}
+
+li,
+a,
+button {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  color: #f8f8f7;
+  text-decoration: none;
+}
+header {
+  background-image: linear-gradient(#001219, #001e2a);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 8%;
+}
+#logo {
+  width: 180px;
+  height: 90px;
+}
+.nav-links {
+  transition: all 0.2s ease 0s;
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0px 60px;
+}
+.nav-links li a {
+  color: #005f73;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f1ff;
+}
+
+li,
+a,
+button {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  color: #f8f8f7;
+  text-decoration: none;
+}
+header {
+  background-image: linear-gradient(#001219, #001e2a);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 8%;
+}
+#logo {
+  width: 180px;
+  height: 90px;
+}
+.nav-links {
+  transition: all 0.2s ease 0s;
+  list-style: none; /* This rule gets rid of the bullets in the list */
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0px 60px;
+}
+.nav-links li a {
+  color: #005f73;
+}
+
+.nav-links li a:hover {
+  color: #bfc3c4; /* Prev this was the same color, so you couldn't notice the hover change */
+}
+button {
+  padding: 9px 30px;
+  background-color: #0a9396;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button :hover {
+  color: #005f73;
+}
+
+@media screen and (max-width: 1080px) {
+  button {
+    display: none;
+  }
+  .nav-links li {
+    padding: 0px 10px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .nav-links li {
+    display: none;
+  }
+  header {
+    display: block;
+    text-align: right;
+  }
+}
+button {
+  padding: 9px 30px;
+  background-color: #0a9396;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button :hover {
+  color: #005f73;
+}
+
+@media screen and (max-width: 1080px) {
+  button {
+    display: none;
+  }
+  .nav-links li {
+    padding: 0px 10px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .nav-links li {
+    display: none;
+  }
+  header {
+    display: block;
+    text-align: right;
+  }
+}
